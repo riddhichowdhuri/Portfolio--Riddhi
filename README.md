@@ -1,23 +1,22 @@
 ## Riddhi Chowdhuri — Portfolio
 
-A personal portfolio site for **Riddhi Sourabh Chowdhuri**, MSc Economics (Data Analytics) student — built to showcase academic background, internship experience, and applied research across economics, econometrics and data analytics.
+A personal portfolio site for **Riddhi Sourabh Chowdhuri**, MSc Economics (Data Analytics) student built to showcase academic background, internship experience, and applied research across economics, econometrics and data analytics.
 
 **Live site:** https://riddhichowdhuri.github.io/Portfolio--Riddhi/
 
 ## About
 
-This site brings together education, internship experience (Tata Power Renewable Energy Ltd., NITI Aayog), academic research projects, technical skills, certifications and achievements in one place — built for professors, recruiters and other professional contacts to get an accurate picture at a glance.
+This site brings together education, internship experience (Tata Power Renewable Energy Ltd., NITI Aayog), academic research projects, technical skills, certifications and achievements in one place, built for professors, recruiters and other professional contacts to get an accurate picture at a glance.
 
 ## Built with
 
-- HTML5, CSS3, vanilla JavaScript — no frameworks, no build step
+- HTML5, CSS3, vanilla JavaScript.
 - Hosted on GitHub Pages
 
 ## Features
 
 - Responsive layout across mobile, tablet and desktop
 - Sticky navigation with active-page highlighting and a mobile menu
-- Light/dark theme toggle (remembers your preference)
 - Scroll-reveal animations and animated statistics on the homepage
 - Filterable project gallery with a click-through detail view for each project
 - Contact form with client-side validation
