@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Riddhi Chowdhuri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">R</span>RIDDHI</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="Switch to dark mode">☾</button>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Projects</p>
+      <h1>Projects</h1>
+      <p style="max-width:60ch; margin-top:1rem;">Click any card for the full breakdown — research question, dataset, method, tools and findings. Items marked <span class="missing">[ADD VERIFIED RESULT]</span> are awaiting confirmed figures from Riddhi.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="economics">Economics</button>
+        <button class="filter-btn" data-filter="econometrics">Econometrics</button>
+        <button class="filter-btn" data-filter="finance">Finance</button>
+        <button class="filter-btn" data-filter="data-mining">Data Mining</button>
+      </div>
+
+      <div class="grid grid-3">
+
+        <div class="card reveal project-card" data-category="economics">
+          <p class="cat">Economics · Primary Research</p>
+          <h3>Pedestrianisation &amp; Vendor Income</h3>
+          <p>Designed a primary survey of 100 respondents to assess the impact of pedestrianisation policies on vendor income in Mumbai.</p>
+          <div class="meta-row"><span class="chip">Excel</span><span class="chip">ANOVA</span><span class="chip">F-test</span></div>
+          <script type="application/json">
+          {
+            "title": "Impact of Pedestrianisation Policy on Vendor Income",
+            "category": "Economics · Primary Research",
+            "question": "Does pedestrianisation of a commercial area affect the income of street vendors operating there?",
+            "dataset": "Primary survey of 100 respondents (vendors) in Mumbai.",
+            "methodology": "Survey design and data collection, followed by ANOVA and F-test analysis.",
+            "tools": "Microsoft Excel.",
+            "findings": "[ADD VERIFIED RESULT] — specific ANOVA/F-test results and conclusions to be confirmed.",
+            "skills": "Survey design, primary data collection, hypothesis testing, statistical analysis."
+          }
+          </script>
+        </div>
+
+        <div class="card reveal project-card" data-category="econometrics">
+          <p class="cat">Econometrics · 20 Countries</p>
+          <h3>Crammed &amp; Dammed: Inflation, GDP &amp; Unemployment</h3>
+          <p>Investigated why countries with higher tertiary enrolment rates experience higher unemployment, and the impact of inflation and GDP per capita on unemployment.</p>
+          <div class="meta-row"><span class="chip">STATA</span><span class="chip">Secondary Data</span></div>
+          <script type="application/json">
+          {
+            "title": "Crammed & Dammed: Inflation, GDP & Unemployment Analysis",
+            "category": "Econometrics · 20 Countries",
+            "question": "Why do countries with higher tertiary enrolment rates experience higher unemployment? What is the impact of inflation and GDP per capita on unemployment?",
+            "dataset": "Secondary data from the World Development Report (WDR) and OECD, across 20 countries.",
+            "methodology": "Cross-country econometric analysis.",
+            "tools": "STATA.",
+            "findings": "[ADD VERIFIED RESULT] — specific regression coefficients/conclusions to be confirmed.",
+            "skills": "Econometric modelling, secondary data analysis, cross-country comparison."
+          }
+          </script>
+        </div>
+
+        <div class="card reveal project-card" data-category="finance">
+          <p class="cat">Finance · Internship Deliverable, Tata Power Renewable Energy Ltd.</p>
+          <h3>Solar Power Project — FMVA &amp; Sensitivity Analysis</h3>
+          <p>The financial-modelling centrepiece of the internship: a full FMVA build for a 100 MW solar asset, stress-tested across multiple assumptions at once. See <a href="experience.html" class="link">Experience</a> for the full internship scope.</p>
+          <div class="meta-row"><span class="chip">Excel</span><span class="chip">Financial Modelling</span><span class="chip">Sensitivity Analysis</span></div>
+          <script type="application/json">
+          {
+            "title": "Solar Power Project — FMVA & Sensitivity Analysis",
+            "category": "Finance · Tata Power Renewable Energy Ltd. (Internship)",
+            "question": "What is the financial viability of a 100 MW solar power project under varying key assumptions?",
+            "dataset": "Project-specific financial and technical assumptions (internal to Tata Power Renewable Energy Ltd.).",
+            "methodology": "Financial Modelling & Valuation Analyst (FMVA) build in Excel with a multi-variable sensitivity analysis.",
+            "tools": "Microsoft Excel.",
+            "findings": "[ADD VERIFIED RESULT] — confidential/internal; confirm what, if anything, is shareable publicly.",
+            "skills": "Financial modelling, valuation, sensitivity analysis, renewable energy finance."
+          }
+          </script>
+        </div>
+
+        <div class="card reveal project-card" data-category="finance">
+          <p class="cat">Finance · Internship Deliverable, Tata Power Renewable Energy Ltd.</p>
+          <h3>AI Tools Comparison for Financial Modelling</h3>
+          <p>A hands-on evaluation of where Gen AI tools genuinely speed up modelling work versus where a spreadsheet still wins. See <a href="experience.html" class="link">Experience</a> for the full internship scope.</p>
+          <div class="meta-row"><span class="chip">Claude</span><span class="chip">Copilot</span><span class="chip">Shortcut AI</span></div>
+          <script type="application/json">
+          {
+            "title": "AI Tools Comparison for Financial Modelling",
+            "category": "Finance · Tata Power Renewable Energy Ltd. (Internship)",
+            "question": "Which AI tool best supports financial modelling and valuation workflows for internal use?",
+            "dataset": "Internal financial modelling workflows and test cases at Tata Power Renewable Energy Ltd.",
+            "methodology": "Comparative evaluation of Claude, Microsoft Copilot and Shortcut AI against modelling tasks.",
+            "tools": "Claude, Microsoft Copilot, Shortcut AI, Excel.",
+            "findings": "[ADD VERIFIED RESULT] — comparison criteria and conclusions to be confirmed.",
+            "skills": "Tool evaluation, financial modelling, workflow analysis."
+          }
+          </script>
+        </div>
+
+        <div class="card reveal project-card" data-category="data-mining">
+          <p class="cat">Data Mining · Coursework</p>
+          <h3>Netflix vs Amazon Prime <span class="missing">(not on resume)</span></h3>
+          <p>Coursework comparing Netflix and Amazon Prime Video content using supervised classification models in Orange Data Mining.</p>
+          <div class="meta-row"><span class="chip">Orange Data Mining</span><span class="chip">Classification</span></div>
+          <script type="application/json">
+          {
+            "title": "Netflix vs Amazon Prime — Data Mining Coursework",
+            "category": "Data Mining · Coursework (not listed on resume)",
+            "question": "What distinguishes Netflix and Amazon Prime Video content, and can that be predicted with a classification model?",
+            "dataset": "Netflix and Amazon Prime Video content data, built on an earlier movie-commercial-success prediction assignment that used TMDB data.",
+            "methodology": "Data preprocessing, feature engineering and supervised classification models, evaluated with cross-validation, in Orange Data Mining.",
+            "tools": "Orange Data Mining.",
+            "findings": "[ADD VERIFIED RESULT] — final classification accuracy/results to be confirmed.",
+            "skills": "Data preprocessing, feature engineering, classification modelling, cross-validation."
+          }
+          </script>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <div class="modal-body"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Riddhi Sourabh Chowdhuri</div>
+        <span class="tag">Economics × Data × Finance</span>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Site</h5>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="education.html">Education</a>
+          <a href="experience.html">Experience</a>
+        </div>
+        <div class="footer-col">
+          <h5>More</h5>
+          <a href="projects.html">Projects</a>
+          <a href="skills.html">Skills</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Elsewhere</h5>
+          <a href="https://github.com/riddhichowdhuri" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/riddhi-chowdhuri-856390242/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:4riddhi2005@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Riddhi Sourabh Chowdhuri. Built with HTML, CSS &amp; JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
