@@ -1,8 +1,34 @@
-# Riddhi Chowdhuri — Portfolio Website
+# Riddhi Chowdhuri — Portfolio
 
-A static, dependency-free portfolio site (HTML, CSS, vanilla JS only) — ready for GitHub Pages.
+A personal portfolio site of **Riddhi Sourabh Chowdhuri**, MSc Economics (Data Analytics) student is built to showcase academic background, internship experience, and applied research across economics, econometrics and data analytics.
+
+**Live site:** https://riddhichowdhuri.github.io/Portfolio--Riddhi/
+
+## About
+
+This site brings together education, internship experience (Tata Power Renewable Energy Ltd., NITI Aayog), academic research projects, technical skills, certifications and achievements in one place which is built for professors, recruiters and other professional contacts to get an accurate picture at a glance.
+
+## Built with
+
+- HTML5, CSS3, vanilla JavaScript 
+- Hosted on GitHub Pages
+
+## Features
+
+- A quiet, editorial black-and-white design with minimal color
+- Responsive layout across mobile, tablet and desktop
+- Sticky navigation with active-page highlighting and a mobile menu
+- Scroll-reveal animations and animated statistics on the homepage
+- Filterable project gallery with a click-through detail view for each project
+- Contact form with client-side validation
+- Downloadable resume (PDF)
+
+## Pages
+
+Home · About · Education · Experience · Projects · Skills · Certifications · Achievements · Resume · Contact
 
 ## Folder structure
+
 ```
 /
 ├── index.html
@@ -24,40 +50,16 @@ A static, dependency-free portfolio site (HTML, CSS, vanilla JS only) — ready 
 └── README.md
 ```
 
-## Features
-- Responsive layout, no horizontal scroll (tested at 360px, 768px, 1024px, 1440px widths)
-- Sticky nav with active-page highlighting, mobile hamburger menu
-- Light/dark theme toggle (persisted via `localStorage`)
-- Scroll-reveal animations, animated stat counters on the homepage
-- Projects page: category filtering + click-through detail modal (data embedded per card as JSON)
-- Contact form with client-side validation (name / email format / message length); on success it opens the visitor's email client pre-filled to 4riddhi2005@gmail.com — there is no backend or database, so this is the static-site equivalent of "sending"
-- Resume page embeds the actual PDF plus download / open-in-new-tab buttons
+## Running locally
 
-## Content still needing verification
-Search the pages for `[ADD VERIFIED RESULT]` / `[ADD VERIFIED INFORMATION]` / "unverified". These mark places where the resume didn't provide enough detail, or where existing site copy (the Netflix vs Amazon Prime project) doesn't appear on the resume at all. Replace these with real content before submission.
+```bash
+python3 -m http.server 8000
+```
+Then open `http://localhost:8000` in your browser.
 
-## Test locally
-1. No build step needed. From the project folder, run a simple local server (opening `index.html` directly also works, except the PDF `<iframe>` on the Resume page may be blocked by some browsers under `file://` — a local server avoids that):
-   ```
-   python3 -m http.server 8000
-   ```
-2. Open `http://localhost:8000` in your browser.
-3. Click through every nav link, resize the window (or use dev tools device toolbar) to check mobile behaviour, toggle dark mode, and try the Projects filters/modal and the Contact form.
+## Notes
 
-## Upload to GitHub
-1. Create a new repository on GitHub (e.g. `riddhi-portfolio`).
-2. In the project folder:
-   ```
-   git init
-   git add .
-   git commit -m "Initial portfolio site"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
+A few project write-ups reference findings that are still being finalised and are marked accordingly on the page. Certification cards will be updated with credential links as they become available.
 
-## Enable GitHub Pages
-1. On GitHub, open the repository → **Settings** → **Pages**.
-2. Under "Build and deployment", set **Source** to "Deploy from a branch".
-3. Set **Branch** to `main` and folder to `/ (root)`, then **Save**.
-4. Wait a minute or two, then your site will be live at `https://<your-username>.github.io/<repo-name>/`.
+---
+© Riddhi Sourabh Chowdhuri
