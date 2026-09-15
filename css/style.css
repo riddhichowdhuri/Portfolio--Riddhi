@@ -403,7 +403,7 @@ body.home .stat-index{
 }
 .bio-actions{ display:flex; gap:.7rem; margin-top:.4rem; }
 .bio-btn{
-  border: 1px solid rgba(255,255,255,.6);
+  border: 1px solid #193B3A;
   color:#193B3A;
   padding:.5rem 1.3rem;
   border-radius: 999px;
@@ -412,11 +412,11 @@ body.home .stat-index{
   text-decoration:none;
   transition: background .2s, color .2s;
 }
-.bio-btn:hover{ background:#fff; color:#17171a; }
+.bio-btn:hover{ background:#193B3A; color:#fff; }
 .bio-social{ display:flex; gap:.9rem; margin-top:.4rem; }
 .bio-icon{
   width:36px; height:36px;
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid #193B3A;
   border-radius:50%;
   display:flex; align-items:center; justify-content:center;
   color:#193B3A;
