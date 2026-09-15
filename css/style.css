@@ -371,9 +371,9 @@ body.home .stat-index{
   gap: 1.1rem;
   padding: 3rem 2rem;
   text-align:center;
-  color: #f5f3ee;
+  color: #193B3A;
   background:
-    linear-gradient(rgba(20,20,20,.55), rgba(20,20,20,.78)),
+    linear-gradient(rgba(190,220,215,.55), rgba(155,195,205,.70)),
     url("../assets/riddhi.jpg") center/cover no-repeat;
 }
 .bio-photo-wrap{
