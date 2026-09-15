@@ -11,7 +11,7 @@
 :root{
   /* ---- color: light (default) ---- */
   --bg:            #F4FAF7;
-  --bg-raised:     #ffffff;
+  --bg-raised:     #F4FAF7;
   --text:          #17171a;
   --text-muted:    #6b6b70;
   --rule:          #e6e6e8;
