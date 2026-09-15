@@ -3,8 +3,8 @@
    Editorial ledger aesthetic: cream paper, ink text,
    brass + data-blue accents, serif display / mono labels.
 
-   FONTS: this file expects Cormorant Garamond, Manrope and
-   IBM Plex Mono to be loaded via <link> in each page's <head>.
+   FONTS: this file expects Fraunces, Inter and IBM Plex Mono
+   to be loaded via <link> in each page's <head>.
    See the Google Fonts snippet provided alongside this file.
    ========================================================= */
 
@@ -26,8 +26,8 @@
   --inverse-text:  #ffffff;
 
   /* ---- type ---- */
-  --font-display: "Cormorant Garamond", Georgia, serif;
-  --font-body:    "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono:    "IBM Plex Mono", ui-monospace, Menlo, monospace;
 
   --step--1: clamp(.78rem, .76rem + .1vw, .86rem);
